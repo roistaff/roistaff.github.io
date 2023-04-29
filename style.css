@@ -1,0 +1,136 @@
+html { scroll-behavior: smooth;}
+body{
+    font-family:serif;
+    margin:0;
+    padding:0;
+}
+p{
+    font-size:20px;
+    color:black;
+    font-family:'Noto Serif JP',"Times New Roman",sans-selif;
+}
+.menu{
+    font-family:"Times New Roman";
+    display:flex;
+}
+.menu ul{
+    display:flex;
+    list-style:none;
+    justify-content:right;
+    margin:auto;
+    margin-right:10px;
+}
+.menu li{
+    padding-right:20px;
+}
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+.menu a:hover{
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-top-width:1px;
+    border-bottom-width:1px;
+}
+.logo{
+    display:block;
+    margin:auto;
+    margin-left:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.content{
+    margin:auto;
+    text-align:center;
+    width:80%;
+}
+.skills ul{
+    list-style: none;
+    font-size:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.info{
+    display:block;
+    font-family:monospace;
+    font-size:18px;
+    text-decoration:none;
+    color:black;
+    padding:5px;
+    width:50%;
+    margin:auto;
+    margin-bottom:30px;
+}
+.medialogos{
+    height:20px;
+}
+.medialogos2{
+    display: block;
+    height:100px;
+    margin:auto;
+    margin-top:20px;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.name{
+    font-family:monospace;
+    font-size:28px;
+}
+.load-fade {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s;
+  }
+  .load-fade.is-show {
+    opacity: 1;
+    visibility: visible;
+  }
+  .scroll-up {
+    opacity: 0; 
+    visibility: hidden;
+    transform: translateY(50px);
+    transition: all 1s;
+  }
+  .scroll-up.is-show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+  }
+#newsfeed{
+    font-size:20px;
+    list-style:none;
+    display: inline-block;
+    padding-left: 0;
+} 
+#newsfeed li{
+    padding:10px;
+    text-align: left;
+    border-bottom:solid 1px gray ;
+}
+.titile-text{
+    margin-top:0;
+}
+.br{
+    display: inline-block;
+}
+.about{
+    margin-top:50px;
+}
+@media screen and (max-width: 740px) {
+    .my-icon{
+        width:80%;
+    }
+    .menu{
+        flex-wrap:wrap;
+    }
+    .menu ul{
+        margin:auto;
+    }
+    .logo{
+        margin:auto;
+    }
+}
