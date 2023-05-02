@@ -126,4 +126,7 @@ p{
     .logo{
         margin:auto;
     }
+    .main{
+	margin-bottom:600px;
+    }
 }
