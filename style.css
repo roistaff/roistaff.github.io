@@ -80,15 +80,6 @@ p{
     font-family:monospace;
     font-size:28px;
 }
-.load-fade {
-    opacity: 0;
-    visibility: hidden;
-    transition: all 1s;
-  }
-  .load-fade.is-show {
-    opacity: 1;
-    visibility: visible;
-  }
   .scroll-up {
     opacity: 0; 
     visibility: hidden;
