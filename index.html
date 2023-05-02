@@ -15,7 +15,7 @@
   <body>
       <div class="main">
           <div class="menu">
-              <img src="imgs/logo.png" class="logo">
+              <img src="imgs/logo.png" class="logo" alt="logo">
               <ul>
                   <li><a href="#about">About</a></li>
                   <li><a href="#skills">Skills</a></li>
@@ -24,8 +24,11 @@
               </ul>
           </div>
          <div class="content">
-            <div class="load-fade">
+            <div>
+	    <picture>
+	    <source type="image/webp" srcset="imgs/my-icon.webp">
              <img class="my-icon" src="imgs/my-icon.png" alt="myicon" >
+	     </picture>
              <h2 class="titletext">My name is <span class="name">Staff Roi</span>!</h2>
              </div>
              <div class="about scroll-up">
@@ -35,12 +38,39 @@
              <div class="skills scroll-up">
                 <h2 id="skills">My Skills</h2>
                 <ul>
-                    <li><img class="medialogos2" src="imgs/golang-logo.png"></li>
-                    <li><img class="medialogos2" src="imgs/python-logo.png"></li>
-                    <li><img class="medialogos2" src="imgs/html-logo.png"></li>
-                    <li><img class="medialogos2" src="imgs/css3-logo.png"></li>
-                    <li><img class="medialogos2" src="imgs/js-logo.png"></li>
-                    <li><img class="medialogos2" src="imgs/linux-logo.gif"></li>
+                    <li>
+		    <picture>
+		    <source type="imgae/webp" srcset="imgs/golang-logo.webp">
+		    <img class="medialogos2" src="imgs/golang-logo.png">
+		    </picture>
+		    </li>
+                    <li>
+		    <picture>
+		    <source type="image/webp" srcset="imgs/python-logo.webp">
+		    <img class="medialogos2" src="imgs/python-logo.png"></li>
+		    </picture>
+                    <li>
+		    <picture>
+		    <source type="image/webp" srcset="imgs/html-logo.webp">
+		    <img class="medialogos2" src="imgs/html-logo.png">
+		    </picture>
+		    </li>
+                    <li>
+		    <picture>
+		    <source type="image/webp" srcset="imgs/css3-logo.webp">
+		    <img class="medialogos2" src="imgs/css3-logo.png">
+		    </picture>
+		    </li>
+                    <li>
+		    <picture>
+		    <source type="image/webp" srcset="imgs/js-logo.webp">
+		    <img class="medialogos2" src="imgs/js-logo.png">
+		    </picture>
+		    </li>
+                    <li>
+		    <picture>
+		    <source type="image/webp" srcset="imgs/linux-logo.webp">
+		    <img class="medialogos2" src="imgs/linux-logo.gif"></li>
                 </ul>
              </div>
              <div class="news scroll-up">
@@ -53,9 +83,13 @@
              <h2 id="contact">Contact</h2>
              <div class="infoes">
              <a  class="info" href="mailto:roistaff1983@gmail.com?subject=Hello,Roi!">roistaff1983@gmail.com</a>
-             <a class="info" href="https://github.com/roistaff"><img class="medialogos" src="imgs/github-logo.png">@roistaff</a>
-             <a class="info" href="https://zenn.dev/roistaff"><img class="medialogos" src="imgs/zenn-logo.png" height="8px">@roistaff</a>
-             <a class="info" href="https://twitter.com/roi_staff"><img class="medialogos" src="imgs/twitter-logo.png">@roi_staff</a>
+             <a class="info" href="https://github.com/roistaff">
+	     <picture>
+	     <source type="image/webp" srcset="imgs/github-logo.webp">
+	     <img class="medialogos" src="imgs/github-logo.png">
+	     </picture> @roistaff</a>
+             <a class="info" href="https://zenn.dev/roistaff"><picture><source type="image/webp" srcset="imgs/zenn-logo.webp"><img class="medialogos" src="imgs/zenn-logo.png" height="8px"></picture>@roistaff</a>
+             <a class="info" href="https://twitter.com/roi_staff"><picture><source type="image/webp" srcset="imgs/twitter-logo.webp"><img class="medialogos" src="imgs/twitter-logo.png"></picture>@roi_staff</a>
              </div>
              </div>
          </div>
