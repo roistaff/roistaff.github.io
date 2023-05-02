@@ -1,18 +1,10 @@
-function load_effect() {
-    var element = document.getElementsByClassName('load-fade');
-    if(!element) return;
-    for(var i = 0; i < element.length; i++) { 
-      element[i].classList.add('is-show');
-    }
-  }
-  setTimeout(load_effect, 600);
   function scroll_effect() {
     var element = document.getElementsByClassName('scroll-up');
     if(!element) return;
                         
     var scrollY = window.pageYOffset;
     var windowH = window.innerHeight;
-    var showTiming = 200; // 要素を表示するタイミング
+    var showTiming = 400; // 要素を表示するタイミング
     for(var i = 0; i < element.length; i++) { 
       var elemClientRect = element[i].getBoundingClientRect(); 
       var elemY = scrollY + elemClientRect.top; 
