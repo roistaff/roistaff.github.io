@@ -4,7 +4,7 @@
                         
     var scrollY = window.pageYOffset;
     var windowH = window.innerHeight;
-    var showTiming = 400; // 要素を表示するタイミング
+    var showTiming = windowH * 0.4; // 要素を表示するタイミング
     for(var i = 0; i < element.length; i++) { 
       var elemClientRect = element[i].getBoundingClientRect(); 
       var elemY = scrollY + elemClientRect.top; 
