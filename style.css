@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&family=Orbitron:wght@900&family=Ubuntu:wght@300&display=swap');
 html { scroll-behavior: smooth;}
 body{
-    font-family:serif;
+    font-family:Ubuntu;
     margin:0;
     padding:0;
 }
 p{
     font-size:20px;
     color:black;
-    font-family:'Noto Serif JP',"Times New Roman",sans-selif;
+    font-family:'Noto Serif JP',"Ubuntu","Times New Roman",selif,sans-selif;
 }
 .menu{
     font-family:"Times New Roman";
     display:flex;
+    color:black;
 }
 .menu ul{
     display:flex;
@@ -61,7 +63,6 @@ p{
     font-family:monospace;
     font-size:18px;
     text-decoration:none;
-    color:black;
     padding:5px;
     width:50%;
     margin:auto;
@@ -69,6 +70,7 @@ p{
 }
 .infoes{
     margin:auto;
+    color:black;
 }
 .medialogos{
     height:20px;
@@ -144,4 +146,20 @@ p{
     .main{
 	margin-bottom:550px;
     }
+}
+.dark-theme{
+    color:white;
+    background-color:#181A1B;
+}
+.dark-theme p{
+    color:white;
+}
+.dark-theme .menu a{
+    color:white;
+}
+.dark-theme .info{
+    color:white;
+}
+.dark-theme .info a{
+    color:white;
 }
