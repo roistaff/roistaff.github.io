@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap');
 html { scroll-behavior: smooth;}
 body{
     font-family:serif;
@@ -22,6 +23,8 @@ p{
 }
 .menu li{
     padding-right:20px;
+    padding:8px;
+    min-width:48px;
 }
 .menu a{
     text-decoration:none;
