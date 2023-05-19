@@ -117,6 +117,15 @@ p{
 .about{
     margin-top:50px;
 }
+.switch{
+    cursor: pointer;
+    position:fixed;
+    bottom:30px;
+    right:10px;
+}
+.switch input{
+    display:none;
+}
 @media screen and (max-width: 740px) {
     .my-icon{
         width:80%;
