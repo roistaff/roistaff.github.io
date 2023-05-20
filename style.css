@@ -12,7 +12,7 @@ p{
     font-family:'Noto Serif JP',"Ubuntu","Times New Roman",selif,sans-selif;
 }
 .menu{
-    font-family:"Times New Roman";
+    font-family:"Ubuntu","Times New Roman";
     display:flex;
     color:black;
 }
@@ -22,6 +22,8 @@ p{
     justify-content:right;
     margin:auto;
     margin-right:10px;
+    width:100%;
+    padding:0px;
 }
 .menu li{
     padding-right:20px;
@@ -45,6 +47,8 @@ p{
     margin-left:5px;
     margin-top:5px;
     margin-bottom:5px;
+    width:300px;
+    height:49px;
 }
 .content{
     margin:auto;
