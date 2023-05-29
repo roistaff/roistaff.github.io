@@ -115,6 +115,10 @@ p{
     text-align: left;
     border-bottom:solid 1px gray ;
 }
+#newsfeed a{
+    text-decoration: none;
+    color:blue;
+}
 .titile-text{
     margin-top:0;
 }

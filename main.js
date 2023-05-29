@@ -43,9 +43,10 @@ async function InputNews() {
 	let newsfeed = document.getElementById('newsfeed');
 	for (let i = 0; i < newslen; i++) {
 		let child = document.createElement('li');
-		child.prepend(news[i].date + "　" + news[i].todo);
+		child.innerHTML = news[i].date + "　" + news[i].todo ;
+		child.prepend();
 		newsfeed.append(child);
 	}
 }
-InputNews()
+InputNews();
 input.addEventListener('change', switchThemeMode);
