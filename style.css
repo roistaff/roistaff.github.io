@@ -11,9 +11,6 @@ p{
     color:black;
     font-family:'Noto Serif JP',"Ubuntu","Times New Roman",selif,sans-selif;
 }
-.main{
-    margin-bottom:550px;
-	}
 .menu{
     font-family:"Ubuntu","Times New Roman";
     display:flex;
@@ -163,9 +160,6 @@ p{
     }
     .logo{
         margin:auto;
-    }
-    .main{
-        margin-bottom:750px;
     }
     
 }
