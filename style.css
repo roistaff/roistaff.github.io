@@ -161,6 +161,9 @@ p{
     .logo{
         margin:auto;
     }
+    .main{
+        margin-bottom:550px;
+    }
     
 }
 .dark-theme{
