@@ -137,6 +137,15 @@ p{
 .switch input{
     display:none;
 }
+.info_mail{
+    text-decoration: none;
+    color:black;
+    font-family:monospace;
+    font-size:18px;
+    display:inline-block;
+    margin:auto;
+    text-align:center;
+}
 @media screen and (max-width: 740px) {
     .my-icon{
         width:80%;
@@ -152,9 +161,7 @@ p{
     .logo{
         margin:auto;
     }
-    .main{
-	margin-bottom:550px;
-    }
+    
 }
 .dark-theme{
     color:white;
@@ -171,4 +178,10 @@ p{
 }
 .dark-theme .info a{
     color:white;
+}
+.dark-theme .info_mail{
+    color:white;
+}
+.dark-theme #newsfeed a{
+    color:yellow;
 }
