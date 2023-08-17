@@ -48,5 +48,18 @@ async function InputNews() {
 		newsfeed.append(child);
 	}
 }
+function develop(event){
+	if(event.code == 'KeyD'){
+		var hey = window.confirm('do you start develop mode?');
+		if (hey != true){
+			return;
+		}else{
+			window.setTimeout(function(){document.body.innerHTML = 'Nothing! We need to write many codes!';},2000)
+		}
+		}else{
+		return;
+	}
+}
 InputNews();
 input.addEventListener('change', switchThemeMode);
+document.body.addEventListener('keydown',develop)
